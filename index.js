@@ -81,5 +81,10 @@ signbutton.addEventListener('click', ()=>{
     infoarr.push(info)
     console.log("this is users : ",infoarr)
     localStorage.setItem("Infoarray", JSON.stringify(infoarr))
+    alert('Successfull Sign up')
+    names.value = ""
+    pass.value = ""
+    email.value = ""
+
   }
 })
